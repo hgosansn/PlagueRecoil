@@ -43,7 +43,7 @@ module.exports = {
     output: {
         filename: '[name].js', // Enable cache-busting
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/'
+        publicPath: env.publicPath,
     },
     devServer: {
         static: {

@@ -1,6 +1,7 @@
 // Environment variables
 const env = {
-    domain: 'hson.fr',
+    domain: 'hgosansn.github.io/PlagueRecoil/',
+    publicPath: '/PlagueRecoil/',
     proto: 'https://',
 };
 
