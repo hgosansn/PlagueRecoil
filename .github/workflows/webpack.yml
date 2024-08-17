@@ -25,3 +25,4 @@ jobs:
               run: |
                   npm install
                   npm run build
+                  # npm run test # Uncomment this line if you have tests
