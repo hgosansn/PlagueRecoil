@@ -75,8 +75,8 @@ module.exports = {
             options: { concurrency: 100 },
         }),
         new WebpackManifestPlugin({
-            basePath: '',
-            publicPath: '/',
+            basePath: '/',
+            publicPath: env.publicPath,
         }),
         new webpack.DefinePlugin({
             NAME: JSON.stringify(pjson.name),
@@ -99,7 +99,7 @@ module.exports = {
         }),
         new SitemapPlugin({
             base: env.url,
-            paths: ['/'],
+            paths: [env.publicPath],
             options: {
                 skipgzip: true,
             },
