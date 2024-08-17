@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="darkreader-lock" />
+        <!-- Primary Meta Tags -->
+        <title>PlagueRecoil</title>
+        <meta name="title" content="PlagueRecoil" />
+        <meta name="description" content="2D platformer shooter centered around zombies" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="Game" />
+        <!-- TODO: Replace Url -->
+        <!-- <meta property="og:url" content="hson.fr" /> -->
+        <meta property="og:title" content="PlagueRecoil" />
+        <meta property="og:description" content="2D platformer shooter centered around zombies" />
+        <!-- <meta property="og:image" content="hson.fr/assets/img-s.png"> -->
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="Game" />
+        <meta property="twitter:url" content="hson.fr" />
+        <meta property="twitter:title" content="PlagueRecoil" />
+        <meta property="twitter:description" content="2D platformer shooter centered around zombies" />
+        <!-- <meta property="twitter:image" content="hson.fr/assets/img-s.png"> -->
+
+        <!-- TODO Fav icon -->
+        <!-- https://favicon.io/ - Generate favicon -->
+        <!-- <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" /> -->
+
+        <!-- Reset CSS -->
+        <link
+            class="disabledStylesheet"
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css"
+            disabled
+        />
+
+        <!-- Icons -->
+        <link
+            class="disabledStylesheet"
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+            disabled
+        />
+
+        <!-- Fonts -->
+        <link
+            class="disabledStylesheet"
+            href="https://fonts.cdnfonts.com/css/powerful"
+            rel="stylesheet"
+            disabled
+        />
+
+        <base href="/" />
+
+        <style rel="stylesheet">
+            .default-theme {
+                --accent: #17b6ff;
+                --secondary: #1d1d1d;
+                --alternative: #3d3d3d;
+                --background: black;
+                --foreground: white;
+            }
+
+            body {
+                overflow-x: hidden;
+                overflow-y: auto;
+                background-color: var(--background);
+                font: 14px Arial;
+                display: flex;
+            }
+            .loading {
+                color: var(--background);
+                visibility: hidden;
+            }
+            .loading a {
+                visibility: hidden;
+            }
+            .loading img {
+                visibility: hidden;
+            }
+        </style>
+        <noscript>
+            <style>
+                #container {
+                    display: none;
+                }
+                .bummer {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: var(--background);
+                    color: var(--foreground);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            </style>
+            <div class="bummer">
+                <h3>Hey there,</h3>
+                <p>Enable JavaScript to view this website.</p>
+                <p>Or mail me at contact@hson.fr</p>
+            </div>
+        </noscript>
+    </head>
+    <body class="default-theme">
+        <div id="container" class="container loading">
+            <div class="head">
+                <div class="head-background">
+                    <img
+                        src="assets/game/background3.png"
+                        alt="A desertic sand background"
+                    />
+                </div>
+                <div id="box">
+                    <div id="root"></div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <div class="sticker">
+                        <img
+                            src="assets/game/zombie.png"
+                            alt="Game Asset"
+                            height="100"
+                        />
+                    </div>
+                    <label class="name logo">PLAGUERECOIL</label>
+                </div>
+                <section>
+
+                    <p>
+                        [WIP] PlagueRecoil is a 2D platformer shooter centered around zombies.
+                    </p>
+                </section>
+            </div>
+            <div class="footer">
+                <a
+                    href="https://www.buymeacoffee.com/hgosansn"
+                    title="Buy me a coffee"
+                    rel="noopener noreferrer external"
+                    aria-label="Buy me a coffee"
+                >
+                    <img
+                        src="assets/bmc-logo.svg"
+                        class="a_cup_of_coffee"
+                        height="50"
+                        alt="A cup of coffee"
+                    />
+                </a>
+                <a
+                    href="https://github.com/hgosansn"
+                    target="_blank"
+                    rel="noopener noreferrer external"
+                    aria-label="Github repository"
+                    >Github contents</a
+                >
+                <a
+                    href="https://hson.fr"
+                    rel="noopener noreferrer"
+                    target="_self"
+                    aria-label="Home"
+                    ><span class="fa fa-copyright"></span>&nbsp;Hugo Sanson</a
+                >
+                <span>All rights reserved. 2023/2024</span>
+                <a
+                    href="mailto:contact@hson.fr"
+                    title="Contact email"
+                    rel="author"
+                    target="_top"
+                    >contact@hson.fr</a
+                >
+            </div>
+        </div>
+    </body>
+</html>
