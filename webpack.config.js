@@ -86,6 +86,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/index.html', // Template file to use
             filename: 'index.html', // Output file
+            base: env.publicPath,
         }),
         new RobotstxtPlugin({
             policy: [
