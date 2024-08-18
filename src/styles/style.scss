@@ -88,7 +88,7 @@ button {
 .container {
 
     transition: transform 1s cubic-bezier(0.55, 0, 0.1, 1);
-    
+
     position: relative;
     width: 90%;
     max-width: $gameWidth;
@@ -198,11 +198,48 @@ button {
 }
 
 .content {
-    min-height: 100vh;
+    min-height: calc(65vh - $topOffset);
     display: flex;
     flex-direction: column;
     align-items: stretch;
     gap: $padding;
+
+    line-height: 1.5em;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: $padding;
+
+        @media screen and (max-width: $responsive) {
+            padding: 0 $padding;
+        }
+
+        .warn {
+            color: var(--accent);
+        }
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: $border-radius;
+    padding: 1em;
+
+    background-color: var(--alternative);
+
+    i {
+        color: var(--accent);
+        padding-right: 1em;
+    }
+
+    @media screen and (max-width: $responsive) {
+        margin: 0 $padding;
+    }
+
 }
 
 .footer {
