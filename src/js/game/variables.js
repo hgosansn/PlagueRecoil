@@ -18,3 +18,5 @@ export const debug = false;
 export const spawnMoreTargets = !debug;
 export const showPlatforms = debug;
 export const bulletMovement = !debug;
+
+export const autoFire = false;

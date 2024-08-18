@@ -86,11 +86,12 @@ button {
 }
 
 .container {
-    max-width: $maxWidth;
+
     transition: transform 1s cubic-bezier(0.55, 0, 0.1, 1);
+    
     position: relative;
     width: 90%;
-    max-width: 1000px;
+    max-width: $gameWidth;
     overflow: hidden;
     display: flex;
     flex-direction: column;

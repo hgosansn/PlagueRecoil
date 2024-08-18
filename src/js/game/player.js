@@ -9,6 +9,7 @@ import {
     bulletSpeed,
     jumpHeight,
     showPlatforms,
+    autoFire,
 } from './variables.js';
 
 import Bullet from './bullet.js';
@@ -84,12 +85,14 @@ export default class Player extends AbstractCharacter {
         // Initialize this controls here
         this.scene.input.keyboard.on('keydown-SPACE', this.fireBullet, this);
         this.scene.input.keyboard.on('keydown-ARROW-UP', this.fireBullet, this);
-        this.initAutoAim();
+        if (autoFire) {
+            this.initAutoAim();
+        }
     }
 
     // Player abilities
-    // TO DO Punch animation
-    // TO DO High Kick animation
+    // TODO: Punch animation
+    // TODO: High Kick animation
 
     hit() {
         this.anims.stop();
