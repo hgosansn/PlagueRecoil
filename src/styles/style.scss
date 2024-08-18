@@ -16,6 +16,10 @@ a:active {
     color: lightskyblue;
 }
 
+a:hover {
+    text-shadow: var(--accent) 2px 2px 3px;
+}
+
 button {
     cursor: pointer;
     color: var(--foreground);
@@ -272,8 +276,8 @@ button {
         }
     }
 
-    a:hover {
-        text-shadow: var(--accent) 2px 2px 3px;
+    .repo {
+        font-size: 35px;
     }
 }
 
