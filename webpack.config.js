@@ -36,7 +36,6 @@ module.exports = {
         main: path.resolve(__dirname, './src/index.jsx'),
     },
     resolve: {
-        // configuration options
         extensions: ['', '.js', '.jsx'],
     },
     devtool: false,
@@ -48,11 +47,15 @@ module.exports = {
     devServer: {
         static: {
             directory: path.join(__dirname, 'dist'),
+            publicPath: env.publicPath,
         },
         compress: true,
+        liveReload: true,
         port: 4200,
         hot: true,
-        open: true,
+        open: {
+            target: [env.publicPath],
+        },
         watchFiles: ['src/**/*'],
     },
     plugins: [

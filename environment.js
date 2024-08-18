@@ -1,11 +1,13 @@
 // Environment variables
 const env = {
-    domain: 'hgosansn.github.io/PlagueRecoil/',
-    publicPath: '/PlagueRecoil/',
-    proto: 'https://',
+    name: 'PlagueRecoil',
+    domain: 'hgosansn.github.io/',
+    proto: 'https://'
 };
 
 module.exports = {
     ...env,
     url: `${env.proto}${env.domain}`,
+    domain: `${env.domain}${env.name}`,
+    publicPath: `/${env.name}/`,
 };

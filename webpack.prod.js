@@ -23,6 +23,6 @@ module.exports = merge(common, {
         filename: '[name].[chunkhash].js', // Enable cache-busting
         path: path.resolve(__dirname, 'dist'),
         clean: true,
-        publicPath: '/'
+        publicPath: env.publicPath,
     },
 });
