@@ -1,5 +1,7 @@
 # PlagueRecoil
 
+[![Release status badge](https://github.com/hgosansn/PlagueRecoil/actions/workflows/github_pages_hosting.yml/badge.svg)](https://github.com/hgosansn/PlagueRecoil/actions/workflows/github_pages_hosting.yml)
+
 **PlagueRecoil** as a title encapsulates the grim struggle against a zombie-infested world while emphasizing the thrilling, fast-paced action that defines your game. It’s a name that not only stands out but also offers plenty of creative directions for your game's development.
 
 ### **Meaning & Imagery:**
