@@ -2,14 +2,16 @@
 
 [![Release status badge](https://github.com/hgosansn/PlagueRecoil/actions/workflows/github_pages_hosting.yml/badge.svg)](https://github.com/hgosansn/PlagueRecoil/actions/workflows/github_pages_hosting.yml)
 
-**PlagueRecoil** as a title encapsulates the grim struggle against a zombie-infested world while emphasizing the thrilling, fast-paced action that defines your game. It’s a name that not only stands out but also offers plenty of creative directions for your game's development.
+**PlagueRecoil** as a title encapsulates the grim struggle against a zombie-infested world while emphasizing the thrilling, fast-paced action that defines the game. It’s a name that not only stands out but also offers plenty of creative directions for the game's development.
 
 ### **Meaning & Imagery:**
+
 - **Plague:** The word "Plague" immediately conjures images of widespread infection, disease, and decay, fitting the theme of a zombie apocalypse. It suggests an overwhelming force that has overtaken the world, turning it into a dangerous, unpredictable environment.
 
-- **Recoil:** The word "Recoil" typically refers to the backward momentum after firing a gun, which connects to the shooter aspect of your game. It also implies a response or reaction, possibly hinting at the player's struggle against the relentless plague of zombies.
+- **Recoil:** The word "Recoil" typically refers to the backward momentum after firing a gun, which connects to the shooter aspect of the game. It also implies a response or reaction, possibly hinting at the player's struggle against the relentless plague of zombies.
 
 ### **Themes:**
+
 - **Survival:** The name suggests a constant battle for survival, where the player must navigate through waves of the infected, dealing with both the external threat of zombies and the internal pressure of limited resources and the consequences of each shot fired.
 
 - **Intensity:** The "Recoil" part of the name brings a sense of action and fast-paced gameplay, where every move and shot counts, adding to the game's intensity and urgency.
@@ -35,9 +37,9 @@ To get started with Phaser.js, you can refer to the following resources:
 
 3. [Phaser.js GitHub Repository](https://github.com/photonstorm/phaser): The GitHub repository contains the source code of Phaser.js. You can browse the codebase, contribute to the project, or report any issues you encounter.
 
-4. [Phaser.js Forum](https://phaser.discourse.group/): The official Phaser.js forum is a valuable resource for asking questions, seeking help, and sharing your game development experiences with the community.
+4. [Phaser.js Forum](https://phaser.discourse.group/): The official Phaser.js forum is a valuable resource for asking questions, seeking help, and sharing game development experiences with the community.
 
-Remember to check out the Phaser.js documentation for detailed information on how to install, set up, and use the framework effectively in your game development projects.
+Remember to check out the Phaser.js documentation for detailed information on how to install, set up, and use the framework effectively in game development projects.
 
 Happy game development!
 
