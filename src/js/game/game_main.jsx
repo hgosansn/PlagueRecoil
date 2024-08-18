@@ -63,6 +63,9 @@ export class Game extends React.Component {
             if (e.key === 'Escape') {
                 this.cleanGame();
             }
+            if (e.key === 'Enter') {
+                this.startGame();
+            }
         });
 
         document.addEventListener('resize', (e) => {
@@ -70,6 +73,7 @@ export class Game extends React.Component {
                 this.state.game.resize(window.innerWidth, window.innerHeight);
             }
         });
+
         setTimeout(() => {
             window.scrollTo(0, 0);
         }, 0);

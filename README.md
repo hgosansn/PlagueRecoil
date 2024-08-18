@@ -19,6 +19,7 @@
 - **Desperation:** The term "Plague" often carries connotations of despair and hopelessness, which could be reflected in the game's atmosphere, storytelling, and visual design, creating a world where the player is constantly on the edge.
 
 ### **Game Features Inspired by the Name:**
+
 - **Dynamic Shooting Mechanics:** Emphasize recoil and the impact of shooting, perhaps with different weapons having distinct recoil patterns that the player must master.
 
 - **Evolving Plague:** The zombies could become stronger or more numerous as the game progresses, reflecting the spreading plague.
